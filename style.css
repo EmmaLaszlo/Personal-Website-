@@ -92,3 +92,24 @@ h1{
     box-sizing: content-box;
 }
 /* portfolio page ------------------------------------------------------------ */
+.portsection {
+    font-size: 16px; 
+    display:inline-flex;
+    margin-bottom: 2px;
+    align-items: top;
+}
+.pportfolio {
+    display:block;
+    text-align: left;
+    box-sizing:border-box;
+    font-size: 25px;
+    padding: 5px; 
+}
+.image-box-port {
+    margin-top: 5px; /* Space above the image container */
+    box-sizing: content-box;
+    width: 100%; /* Ensures it fills the parent container */
+    overflow: hidden; /* makes sure the image is IN THE CONTAINER!!!! */
+    height: auto; /* pretty sure this fixes the ratio */
+    box-sizing: content-box;
+}
