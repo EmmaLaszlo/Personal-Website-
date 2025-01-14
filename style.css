@@ -48,7 +48,7 @@ h1{
   overflow-clip-margin: content-box; /* took this from example site */
   overflow: clip;
   float: right;
-  width: 700px;
+  width: 200px;
 }
 .pindex{
     text-align: left;  
@@ -100,8 +100,8 @@ h1{
 .portsection {
     display: flex; /* Side-by-side layout for text and image */
     align-items: center; 
-    margin: 20px auto;
-    padding: 20px;
+    margin: 10px auto;
+    padding: 50px;
     background-color: #ffffff; /* White background for the project box */
     border-radius: 10px; /* Rounded corners */
     max-width: 900px; /* Limit the width of the project box */
@@ -111,7 +111,7 @@ h1{
     text-align: left;
     box-sizing:border-box;
     font-size: 25px;
-    padding: 5px; 
+    padding: 50px; 
 }
 .image-box-port {
     margin-top: 5px; 
@@ -126,5 +126,5 @@ h1{
     font-size: 28px; 
     font-weight: bold;
     margin-bottom: 10px; /* Add spacing between the heading and the project box */
-    color: #333; 
+    color: #000000; 
 }
