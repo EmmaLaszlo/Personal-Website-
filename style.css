@@ -86,10 +86,14 @@ h1{
 .image-box-about {
     margin-top: 5px; /* Space above the image container */
     box-sizing: content-box;
-    width: 100%; /* Ensures it fills the parent container */
+    width: 100%; /* Ensures it fills the container */
     overflow: hidden; /* makes sure the image is IN THE CONTAINER!!!! */
     height: auto; /* pretty sure this fixes the ratio */
     box-sizing: content-box;
+}
+.image-box-drawing { /*this image was bigger than the other so i made a separate tag*/
+    max-width: 20%; /* Adjust this percentage to control the width */
+    height: auto; /* Maintain ratio */
 }
 /* portfolio page ------------------------------------------------------------ */
 
@@ -110,17 +114,17 @@ h1{
     padding: 5px; 
 }
 .image-box-port {
-    margin-top: 5px; /* Space above the image container */
+    margin-top: 5px; 
     box-sizing: content-box;
-    width: 100%; /* Ensures it fills the parent container */
-    overflow: hidden; /* makes sure the image is IN THE CONTAINER!!!! */
-    height: auto; /* pretty sure this fixes the ratio */
+    width: 100%; 
+    overflow: hidden; 
+    height: auto; 
     box-sizing: content-box;
 }
 .projectheading {
     text-align: center; /* Center the heading over the project box */
-    font-size: 28px; /* Adjust the size as needed */
+    font-size: 28px; 
     font-weight: bold;
     margin-bottom: 10px; /* Add spacing between the heading and the project box */
-    color: #333; /* Use a neutral color for the heading */
+    color: #333; 
 }
