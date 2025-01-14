@@ -92,13 +92,17 @@ h1{
     box-sizing: content-box;
 }
 /* portfolio page ------------------------------------------------------------ */
+
 .portsection {
-    font-size: 16px; 
-    display:inline-flex;
-    margin-bottom: 2px;
-    align-items: top;
+    display: flex; /* Side-by-side layout for text and image */
+    align-items: center; 
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff; /* White background for the project box */
+    border-radius: 10px; /* Rounded corners */
+    max-width: 900px; /* Limit the width of the project box */
 }
-.pportfolio {
+.pportfolio { /*text for the project box*/
     display:block;
     text-align: left;
     box-sizing:border-box;
@@ -112,4 +116,11 @@ h1{
     overflow: hidden; /* makes sure the image is IN THE CONTAINER!!!! */
     height: auto; /* pretty sure this fixes the ratio */
     box-sizing: content-box;
+}
+.projectheading {
+    text-align: center; /* Center the heading over the project box */
+    font-size: 28px; /* Adjust the size as needed */
+    font-weight: bold;
+    margin-bottom: 10px; /* Add spacing between the heading and the project box */
+    color: #333; /* Use a neutral color for the heading */
 }
