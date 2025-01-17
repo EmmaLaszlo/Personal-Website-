@@ -166,3 +166,10 @@ h1{
         height: auto; /* Maintain aspect ratio */
     }
 }
+/* CONTACT HTML -------------------*/
+.form-container{
+    width: 90%;
+    text-align: center;
+    margin: 0 auto; /* Centers the layout horizontally */
+    padding: 20px;
+  }
