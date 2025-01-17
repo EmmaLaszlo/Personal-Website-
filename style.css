@@ -128,3 +128,41 @@ h1{
     margin-bottom: 10px; /* Add spacing between the heading and the project box */
     color: #000000; 
 }
+/* MEDIA QUERIES---------------------------------------------------------------*/
+/* iPhone - max width 480px */
+@media (max-width: 480px) {
+    .content-wrap {
+        flex-wrap: wrap;
+    }
+
+    .navbar {
+        flex-wrap: wrap; /* Ensure navbar text wraps properly */
+    }
+
+    .abtsection {
+        flex-direction: column; /* Stack text and image vertically */
+        align-items: center; /* Center-align both text and image */
+        text-align: center; /* Center the text for better readability */
+        gap: 15px; /* Add spacing between text and image */
+    }
+
+    .pabout {
+        padding: 10px; /* Add padding around the text */
+        font-size: 18px; /* Adjust font size for smaller screens */
+        width: 100%; /* Ensure the text takes the full width */
+    }
+
+    .image-box-about {
+        max-width: 80%; /* Set maximum width to keep it responsive */
+        width: auto; /* Prevent stretching by letting width adjust naturally */
+        height: auto; /* Ensure the aspect ratio is maintained */
+        display: block; /* Remove any inline or flex behavior that causes distortion */
+        margin: 0 auto; /* Center the image horizontally */
+    }
+
+    img {
+        width: 100%; /* Ensure image fills its container */
+        max-width: 100%; /* Prevent exceeding container bounds */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
