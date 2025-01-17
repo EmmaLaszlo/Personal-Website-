@@ -4,10 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
   </head>
   <body>
-    <div class="thank-you">
-      <h1>Thank You!</h1>
-    </div>
+    <header>
+      <div class="navbar">
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div class="form-container">
+        <h2>Contact me!</h2>
+        <form action="success.html" method="get">
+          <label for="name">Name:</label>
+          <input type="Name" id="name" value="Text" />
+          <br /><br />
+          <label for="Message">Message:</label>
+          <input type="Message" id="message" value="Text" />
+          <br /><br />
+          <label for="email">Email:</label>
+          <input type="Email" id="email" value="Text" />
+          <br /><br />
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </main>
   </body>
 </html>
