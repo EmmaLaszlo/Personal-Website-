@@ -144,6 +144,7 @@ h1{
         align-items: center; /* Center-align both text and image */
         text-align: center; /* Center the text for better readability */
         gap: 15px; /* Add spacing between text and image */
+        flex-wrap: wrap;
     }
 
     .pabout {
@@ -165,6 +166,17 @@ h1{
         max-width: 100%; /* Prevent exceeding container bounds */
         height: auto; /* Maintain aspect ratio */
     }
+    .pportfolio {
+        padding: 10px; /* Add padding around the text */
+        font-size: 18px; /* Adjust font size for smaller screens */
+        width: 100%; /* Ensure the text takes the full width */
+    }
+    .portsection {
+        flex-direction: row; /* Stack text and image vertically */
+        flex-wrap: wrap;
+        align-items: center; /* Center-align both text and image */
+        text-align: center; /* Center the text for better readability */
+        }
 }
 /* CONTACT HTML -------------------*/
 .form-container{
