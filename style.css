@@ -115,7 +115,7 @@ h1{
 }
 .image-box-port {
     margin-top: 5px; 
-    box-sizing: content-box;
+    box-sizing: content-box; /*CSS rules*/
     width: 100%; 
     overflow: hidden; 
     height: auto; 
@@ -142,7 +142,7 @@ h1{
     .abtsection {
         flex-direction: column; /* Stack text and image vertically */
         align-items: center; /* Center-align both text and image */
-        text-align: center; /* Center the text for better readability */
+        text-align: center; 
         gap: 15px; /* Add spacing between text and image */
         flex-wrap: wrap;
     }
@@ -155,10 +155,10 @@ h1{
 
     .image-box-about {
         max-width: 80%; /* Set maximum width to keep it responsive */
-        width: auto; /* Prevent stretching by letting width adjust naturally */
-        height: auto; /* Ensure the aspect ratio is maintained */
-        display: block; /* Remove any inline or flex behavior that causes distortion */
-        margin: 0 auto; /* Center the image horizontally */
+        width: auto; /* Prevent stretching */
+        height: auto; /* Ensure the aspect ratio */
+        display: block; 
+        margin: 0 auto; 
     }
 
     img {
@@ -185,3 +185,21 @@ h1{
     margin: 0 auto; /* Centers the layout horizontally */
     padding: 20px;
   }
+
+/* Styling the submit button */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* looked up how to change this feature*/
+  }
+  
+  /* Hover effect for the submit button */
+  button:hover {
+    background-color: #0056b3; /*darker blue for hovering overbutton */
+  }
+  
+  
